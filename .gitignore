@@ -1,0 +1,27 @@
+# secrets — never commit
+.env
+.env.*
+*.key
+
+# python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.ipynb_checkpoints/
+.pytest_cache/
+
+# data & weights (use the HF Hub, not git)
+*.bin
+*.safetensors
+*.gguf
+*.pt
+*.ckpt
+data/
+datasets/
+checkpoints/
+runs/
+wandb/
+
+# os / editor
+.DS_Store

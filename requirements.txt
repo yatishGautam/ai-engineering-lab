@@ -1,0 +1,16 @@
+# Core — used from week 2 onward
+numpy
+torch
+matplotlib
+scikit-learn
+
+# LLM APIs & tooling (weeks 8+)
+anthropic
+tiktoken
+python-dotenv
+
+# RAG (weeks 9-10)
+rank-bm25
+
+# Fine-tuning (weeks 12-14) — install on Colab, not locally
+# transformers, datasets, peft, trl, bitsandbytes, accelerate
