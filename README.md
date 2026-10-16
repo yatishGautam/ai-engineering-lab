@@ -4,7 +4,7 @@ My working notebook for becoming an AI engineer: one folder per week, each with 
 measured number, and an honest account of what broke. Everything here is written by me —
 no tutorial reruns.
 
-Curriculum: 33 lessons across transformer foundations, training, RAG, fine-tuning, RL,
+Curriculum: 34 lessons across transformer foundations, training, RAG, fine-tuning, RL,
 agents, evals, serving, and cost. Flagship project lives separately in
 [`mini-code`](https://github.com/yatishGautam/mini-code).
 
@@ -12,9 +12,13 @@ agents, evals, serving, and cost. Flagship project lives separately in
 
 Numbers appear as I finish each week. Empty rows are scheduled, not abandoned.
 
+**Weeks are independent from W7 onward.** Each folder is self-contained (its README lists
+milestones; skeleton files give signatures, shapes and TODOs, the bodies are mine). W2–W6 are
+recap builds and can be filled in any time; nothing later imports from them.
+
 | Week | Build | Headline number |
 | --- | --- | --- |
-| [W2](w02-nn-from-scratch) | Neural net from scratch, NumPy only | |
+| [W2](w02-nn-from-scratch) | Neural net from scratch, NumPy only | test acc 0.956 on 360 held-out digits |
 | [W3](w03-attention) | Scaled dot-product + multi-head attention | |
 | [W4](w04-minigpt) | MiniGPT assembled and trained on characters | |
 | [W5](w05-pytorch-ladder) | Same net three ways: raw tensors → nn.Module → MPS | |
@@ -40,6 +44,7 @@ Numbers appear as I finish each week. Empty rows are scheduled, not abandoned.
 | [W27](w27-multimodal-extractor) | Invoice extractor with arithmetic verification | |
 | [W28](w28-redteam) | Red-team pass: attack success before/after | |
 | [W29](w29-cost-memo) | Cost engineering memo | |
+| W30 | Harness upgrade of mini-code (permissions, sandbox, checkpoints, skills) — lives in [`mini-code`](https://github.com/yatishGautam/mini-code) | |
 | [papers](papers) | Paper notes, pass-2 and deeper | |
 
 ## Setup
